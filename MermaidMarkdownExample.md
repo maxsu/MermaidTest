@@ -9,7 +9,7 @@ To render Mermaid in github hosted markdown files:
 
 # Example 
 
-Mardown:
+Markdown:
 
     ![image](https://user-images.githubusercontent.com/25123/234838754-9e9310f5-02d3-419b-9fca-4d66c832ceaf.png)
     

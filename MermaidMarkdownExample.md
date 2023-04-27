@@ -11,8 +11,10 @@ To render Mermaid in github hosted markdown files:
 
 Mardown:
 
+    ![image](https://user-images.githubusercontent.com/25123/234838754-9e9310f5-02d3-419b-9fca-4d66c832ceaf.png)
+    
     Fig. 1. Autotools: The Build system from hell
-        
+    
     ```mermaid
     graph 
         A["your files"] --> B["autoscan*"] --> C["configure.scan"] --> D["configure.ac"] 
@@ -34,10 +36,11 @@ Mardown:
         T["Makefile"] --> U["make*"]
     ```
     
-    ![image](https://user-images.githubusercontent.com/25123/234838754-9e9310f5-02d3-419b-9fca-4d66c832ceaf.png)
+
 
 Output:
 
+![image](https://user-images.githubusercontent.com/25123/234838754-9e9310f5-02d3-419b-9fca-4d66c832ceaf.png)
 
 Fig. 1. Autotools: The Build system from hell
 
@@ -62,4 +65,3 @@ graph
     T["Makefile"] --> U["make*"]
 ```
 
-![image](https://user-images.githubusercontent.com/25123/234838754-9e9310f5-02d3-419b-9fca-4d66c832ceaf.png)

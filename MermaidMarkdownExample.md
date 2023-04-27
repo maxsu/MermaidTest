@@ -1,9 +1,11 @@
 # Instructions
 
-To render Mermaid in a markdown gist:
+To render Mermaid in github hosted markdown files:
 
-1. Create a gist with a markdown file
+1. Create a repo with the markdown file
 2. Wrap the code in a ```mermaid {}``` block:
+
+> Note: This does not work in gists 🥲
 
 # Example 
 

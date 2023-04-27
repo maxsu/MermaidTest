@@ -3,13 +3,17 @@
 To render Mermaid in github hosted markdown files:
 
 1. Create a repo with the markdown file
-2. Wrap the code in a ```mermaid {}``` block:
+2. Wrap the code in a \`\`\`mermaid {}\`\`\` block:
 
 > Note: This does not work in gists 🥲
 
 # Example 
 
-The following markdown code:
+Mardown:
+
+    Fig. 1. The Build system from hell
+    
+    [image](https://user-images.githubusercontent.com/25123/234838310-7b91dd15-d6f1-4375-b890-a9482c99b6f0.png)
 
     ```mermaid
     graph 
@@ -32,7 +36,13 @@ The following markdown code:
         T["Makefile"] --> U["make*"]
     ```
 
-Becomes this diagram:
+Output:
+
+
+Fig. 1. Autotools. The Build system from hell
+
+ [image](https://user-images.githubusercontent.com/25123/234838310-7b91dd15-d6f1-4375-b890-a9482c99b6f0.png)
+
 
 ```mermaid
 graph 
